@@ -1,1 +1,1 @@
-# Manual-Testing_Exercises-
+# Manual-Testing_Exercises
