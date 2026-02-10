@@ -1,0 +1,13 @@
+Functional Requirements:
+
+REQ-Functional 01 - The page must contain two fields for registration: Email Address field and a Password field. 
+
+REQ-Functional 02 - A valid email must be between 5 and 30 characters and must be with a valid syntax (for example testing_user@abv.bg).
+
+REQ-Functional 03 - A valid password must meet the following criteria:
+       1. Must be between 3 and 30 characters
+       2. Must contain at least one upper character
+       3. Must contain at least one lower character
+       4. Must contain at least one number
+       example password - TestingPassword123
+             
