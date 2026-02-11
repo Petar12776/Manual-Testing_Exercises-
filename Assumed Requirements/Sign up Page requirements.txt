@@ -2,7 +2,6 @@ Note: The following requirements are assumed and are only for learning purposes,
 
 Functional Requirements:
 
-REQ-Functional 01 - The page must contain two fields for registration: Email Address field and a Password field. 
 REQ-Functional 01 - The page must contain an Email Address input field and a Password input field. 
 
 REQ-Functional 02 - A valid email must meet the following criteria:
