@@ -1,0 +1,127 @@
+Test Case ID - TC-01 
+
+Title - Verify that a user can successfully Sign up with a valid email and password
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - testing_user@gmail.com; password - TestingPassword123 
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email in the Email field
+    3. Enter a valid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The user is navigated to the Home Page; No validation error messages displayed
+
+Postconditions - The system has created a new account; The user is logged in
+
+
+
+Test Case ID - TC-02 
+
+Title - Verify that Sign up succeeds if the email length is on the minimum allowed characters
+
+Description - The user must be able to Sign up if his email length is on the lower boundary (15 characters).
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - email@gmail.com; password - TestingPassword123 
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email in the Email field
+    3. Enter a valid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The user is navigated to the Home Page; No validation error messages displayed
+
+Postconditions - The system has created a new account; The user is logged in
+
+
+
+Test Case ID - TC-03 
+
+Title - Verify that Sign up succeeds if the email length is on the maximum allowed characters
+
+Description - The user must be able to Sign up if his email length is on the upper boundary (50 characters).
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - This_Email_Is_Just_For_Learning_Purposes@gmail.com; password - My_Password89 
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email in the Email field
+    3. Enter a valid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The user is navigated to the Home Page; No validation error messages displayed
+
+Postconditions - The system has created a new account; The user is logged in
+
+
+
+Test Case ID - TC-04 
+
+Title - Verify that Sign up succeeds if the password length is on the minimum allowed characters
+
+Description - The user must be able to Sign up if his password length is on the lower boundary (5 characters).
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - ivan_ivanov@abv.bg; password - Word6 
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email in the Email field
+    3. Enter a valid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The user is navigated to the Home Page; No validation error messages displayed
+
+Postconditions - The system has created a new account; The user is logged in
+
+
+
+Test Case ID - TC-05 
+
+Title - Verify that Sign up succeeds if the password length is on the maximum allowed characters
+
+Description - The user must be able to Sign up if his password length is on the upper boundary (30 characters).
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - ivan_kostov@mail.bg; password - My_Testing_Project_Password123
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email in the Email field
+    3. Enter a valid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The user is navigated to the Home Page; No validation error messages displayed
+
+Postconditions - The system has created a new account; The user is logged in
+
+
+
+Test Case ID - TC-06 
+
+Title - Verify that Sign up succeeds if the email and password lengths are on the maximum allowed characters
+
+Description - The user must be able to Sign up if his email and password lengths are on the upper boundary (50 characters for the email and 30 characters for the password).
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - MaxEmailLengthUserTest11223344556677889900@abc.com; password - MaxPasswordLengthTest123456789
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email in the Email field
+    3. Enter a valid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The user is navigated to the Home Page; No validation error messages displayed
+
+Postconditions - The system has created a new account; The user is logged in
+

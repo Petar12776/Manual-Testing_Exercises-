@@ -1,0 +1,15 @@
+SC 01 - Verify a successful sign up
+SC 02 - Verify a sign up with a valid email and an password without a number
+SC 03 - Verify a sign up with an invalid email and a valid password
+SC 04 - Verify a sign up with a valid email and an password without a lower letter
+SC 05 - Verify a sign up with a valid email and an password without an upper letter
+SC 06 - Verify a sign up with an invalid email and an invalid password
+SC 07 - Verify a sign up with empty Email field and empty Password field
+SC 08 - Verify the lower boundary of the Email field
+SC 09 - Verify the upper boundary of the Email field
+SC 10 - Verify the lower boundary of the Password field
+SC 11 - Verify the upper boundary of the Password field
+SC 12 - Verify a sign up with a valid email and an empty Password field
+SC 13 - Verify a sign up with an already existing profile
+SC 14 - Verify a sign up by pressing the sign up button continuously 
+SC 15 - Verify a user is redirected to the home page after a successful sign up  

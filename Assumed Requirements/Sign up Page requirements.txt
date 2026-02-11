@@ -1,13 +1,32 @@
+Note: The following requirements are assumed and are only for learning purposes, therefore can alter from the actual website behaviour and from actual requirements!
+
 Functional Requirements:
 
 REQ-Functional 01 - The page must contain two fields for registration: Email Address field and a Password field. 
+REQ-Functional 01 - The page must contain an Email Address input field and a Password input field. 
 
-REQ-Functional 02 - A valid email must be between 5 and 30 characters and must be with a valid syntax (for example testing_user@abv.bg).
+REQ-Functional 02 - A valid email must meet the following criteria:
+       1. Must be between 15 and 50 characters
+       2. Must follow the valid email format
+       example of a valid email - testing_email@gmail.com  	
 
 REQ-Functional 03 - A valid password must meet the following criteria:
-       1. Must be between 3 and 30 characters
+       1. Must be between 5 and 30 characters
        2. Must contain at least one upper character
        3. Must contain at least one lower character
        4. Must contain at least one number
        example password - TestingPassword123
-             
+
+REQ-Functional 04 - The website must allow a registration only when both the Email field and Password field meet the valid criteria.
+
+REQ-Functional 05 - The page must contain a button which submits the registration form.
+
+REQ-Functional 06 - When the user submits valid email and password the system creates a new account.
+
+REQ-Functional 07 - The user is navigated to the Home Page after a successful registration.
+
+UI Requirements:
+
+REQ-UI 08 - The Sign up page must contain the text above the Email field with the following text - "New User Sign up!".
+            
+REQ-UI 09 - The button which sumbits the registration form must be labbeled "Sign up". 
