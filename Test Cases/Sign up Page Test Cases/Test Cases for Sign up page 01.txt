@@ -252,13 +252,82 @@ Postconditions - The system doesn't create another account; The user is not logg
 Test Case ID - TC-12
 Scenario ID - SC_03
 
-Title - Verify a Sign up with a email below the character limit  and a valid password
+Title - Verify a Sign up with a email below the character limit and a valid password
 
 Description - After trying to sign up the website must display an error message telling the user to enter an email containing more than 15 characters.
 
 Preconditions - User not logged in; User does not have an account
 
 Test Data: email - test_me@abv.bg; password - Testing_password543
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter an invalid email in the Email field
+    3. Enter a valid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The system doesn't create another account; The user is not logged in
+
+
+
+Test Case ID - TC-13
+Scenario ID - SC_03
+
+Title - Verify a Sign up with a email above the character limit and a valid password
+
+Description - After trying to sign up the website must display an error message telling the user to enter an email containing maximum 50 characters.
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - This_is_a_super_long_test_email_for_boundary@abv.bg; password - Testing_password45467
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter an invalid email in the Email field
+    3. Enter a valid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The system doesn't create another account; The user is not logged in
+
+
+
+Test Case ID - TC-14
+Scenario ID - SC_03
+
+Title - Verify a Sign up with a email with a wrong format and a valid password
+
+Description - After trying to sign up the website must display an error message telling the user to enter a valid email.
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - testingemailabv.bg; password - Testing_password4124234
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter an invalid email in the Email field
+    3. Enter a valid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The system doesn't create another account; The user is not logged in
+
+
+
+Test Case ID - TC-15
+Scenario ID - SC_03
+
+Title - Verify a Sign up with a email with a wrong format and a valid password
+
+Description - After trying to sign up the website must display an error message telling the user to enter a valid email.
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - Testin_user@gmailcom; password - Testing_password3456
 
 Test Steps: 
     1. Navigate to the Sign up page
