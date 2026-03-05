@@ -26,6 +26,6 @@ REQ-Functional 07 - The user is navigated to the Home Page after a successful re
 
 UI Requirements:
 
-REQ-UI 08 - The Sign up page must contain the text above the Email field with the following text - "New User Sign up!".
+REQ-UI 001 - The Sign up page must contain the text above the Email field with the following text - "New User Sign up!".
             
-REQ-UI 09 - The button which sumbits the registration form must be labbeled "Sign up". 
+REQ-UI 002 - The button which sumbits the registration form must be labbeled "Sign up". 
