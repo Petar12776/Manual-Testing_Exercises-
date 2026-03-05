@@ -1,0 +1,157 @@
+Test Case ID - TC-16
+Scenario ID - SC_04
+
+Title - Verify a Sign up with an invalid email and password
+
+Description - After trying to sign up the website must display an error message telling the user to enter a valid email and password.
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - testingEmailgmailcom; password - my-password12
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter an invalid email in the Email field
+    3. Enter an invalid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The system doesn't create another account; The user is not logged in
+
+
+Test Case ID - TC-17
+Scenario ID - SC_04
+
+Title - Verify a Sign up with an invalid email and password
+
+Description - After trying to sign up the website must display an error message telling the user to enter a valid email and password.
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - testingEmailgmailcom; password - NEW_PASSWORD
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter an invalid email in the Email field
+    3. Enter an invalid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The system doesn't create another account; The user is not logged in
+
+
+
+Test Case ID - TC-18
+Scenario ID - SC_04
+
+Title - Verify a Sign up with an invalid email and password
+
+Description - After trying to sign up the website must display an error message telling the user to enter a valid email and password.
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - testingEmailgmailcom; password - 12345678910
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter an invalid email in the Email field
+    3. Enter an invalid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The system doesn't create another account; The user is not logged in
+
+
+
+Test Case ID - TC-19
+Scenario ID - SC_04
+
+Title - Verify a Sign up with an invalid email and password
+
+Description - After trying to sign up the website must display an error message telling the user to enter a valid email and password.
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - testingEmailgmailcom; password - p4ssw0rd
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter an invalid email in the Email field
+    3. Enter an invalid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The system doesn't create another account; The user is not logged in
+
+
+
+Test Case ID - TC-19
+Scenario ID - SC_05
+
+Title - Verify a Sign up with a valid email and empty Password field
+
+Description - After trying to sign up the website must display an error message telling the user to enter a valid password.
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - testing_email@gmail.com; password - {empty}
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter an valid email in the Email field
+    3. Leave the Password field empty
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The system doesn't create another account; The user is not logged in
+
+
+
+Test Case ID - TC-20
+Scenario ID - SC_06
+
+Title - Verify a Sign up with an empty Email field and a valid password 
+
+Description - After trying to sign up the website must display an error message telling the user to enter a valid email.
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - {empty}; password - My-password12345
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Leave the Email field empty
+    3. Enter a valid password
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The system doesn't create another account; The user is not logged in
+
+
+
+Test Case ID - TC-21
+Scenario ID - SC_07
+
+Title - Verify a Sign up with an empty Email field and a empty Password field
+
+Description - After trying to sign up the website must display an error message telling the user to enter a valid email and password.
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - {empty}; password - {empty}
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Leave the Email field empty
+    3. Leave the Password field empty
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The system doesn't create another account; The user is not logged in

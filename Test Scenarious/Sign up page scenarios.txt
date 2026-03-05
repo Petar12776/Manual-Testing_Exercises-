@@ -3,12 +3,8 @@ SC_02 - Verify a sign up with a valid email and an invalid password
 SC_03 - Verify a sign up with an invalid email and a valid password
 SC_04 - Verify a sign up with an invalid email and an invalid password
 SC_05 - Verify a sign up with a valid email and an empty Password field
-SC_05 - Verify a sign up with an empty email and a valid password
+SC_06 - Verify a sign up with an empty email and a valid password
 SC_07 - Verify a sign up with empty Email field and empty Password field
-SC_08 - Verify the lower boundary of the Email field
-SC_09 - Verify the upper boundary of the Email field
-SC_10 - Verify the lower boundary of the Password field
-SC_11 - Verify the upper boundary of the Password field
-SC_12 - Verify a sign up with an already existing profile
-SC_13 - Verify a sign up by pressing the sign up button continuously 
-SC_14 - Verify a user is redirected to the home page after a successful sign up  
+SC_08 - Verify a sign up with an already existing profile
+SC_09 - Verify a sign up by pressing the sign up button continuously 
+SC_10 - Verify a user is redirected to the home page after a successful sign up  
