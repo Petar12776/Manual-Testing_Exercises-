@@ -139,7 +139,7 @@ Scenario ID - SC_02
 
 Title - Verify a Sign up with a valid email and password with no lower character
 
-Description - The website must display an error message telling the user to enter a password containing at least one lower character.
+Description - After trying to sign up the website must display an error message telling the user to enter a password containing at least one lower character.
 
 Preconditions - User not logged in; User does not have an account
 
@@ -162,7 +162,7 @@ Scenario ID - SC_02
 
 Title - Verify a Sign up with a valid email and password with no upper character
 
-Description - The website must display an error message telling the user to enter a password containing at least one upper character.
+Description - After trying to sign up the website must display an error message telling the user to enter a password containing at least one upper character.
 
 Preconditions - User not logged in; User does not have an account
 
@@ -180,16 +180,16 @@ Postconditions - The system doesn't create another account; The user is not logg
 
 
 
-Test Case ID - TC-9
+Test Case ID - TC-09
 Scenario ID - SC_02
 
-Title - Verify a Sign up with a valid email and password below the lower character limit
+Title - Verify a Sign up with a valid email and password with no number
 
-Description - The website must display an error message telling the user to enter a password containing at least 5 characters.
+Description - After trying to sign up the website must display an error message telling the user to enter a password containing at least one number.
 
 Preconditions - User not logged in; User does not have an account
 
-Test Data: email - testing-email49@abv.bg; password - mb12
+Test Data: email - testing-email40@abv.bg; password - My_password
 
 Test Steps: 
     1. Navigate to the Sign up page
@@ -206,9 +206,32 @@ Postconditions - The system doesn't create another account; The user is not logg
 Test Case ID - TC-10
 Scenario ID - SC_02
 
+Title - Verify a Sign up with a valid email and password below the lower character limit
+
+Description - After trying to sign up the website must display an error message telling the user to enter a password containing at least 5 characters.
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - testing-email49@abv.bg; password - Mb12
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email in the Email field
+    3. Enter an invalid password in the Password field
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The system doesn't create another account; The user is not logged in
+
+
+
+Test Case ID - TC-11
+Scenario ID - SC_02
+
 Title - Verify a Sign up with a valid email and password above the upper character limit
 
-Description - The website must display an error message telling the user to enter a password containing maximum 30 characters.
+Description - After trying to sign up the website must display an error message telling the user to enter a password containing maximum 30 characters.
 
 Preconditions - User not logged in; User does not have an account
 
@@ -226,12 +249,12 @@ Postconditions - The system doesn't create another account; The user is not logg
 
 
 
-Test Case ID - TC-11
+Test Case ID - TC-12
 Scenario ID - SC_03
 
 Title - Verify a Sign up with a email below the character limit  and a valid password
 
-Description - The website must display an error message telling the user to enter an email containing more than 15 characters.
+Description - After trying to sign up the website must display an error message telling the user to enter an email containing more than 15 characters.
 
 Preconditions - User not logged in; User does not have an account
 
