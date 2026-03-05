@@ -13,7 +13,7 @@ Test Steps:
     3. Enter a valid password in the Password field
     4. Click on the Sign up button
 
-Expected result - The website must display an error message to the user
+Expected result - The user must be navigated to the home page
 
 Postconditions - The system has created a new account; The user is logged in
 
@@ -36,7 +36,7 @@ Test Steps:
     3. Enter a valid password in the Password field
     4. Click on the Sign up button
 
-Expected result - The website must display an error message to the user
+Expected result - The user must be navigated to the home page
 
 Postconditions - The system has created a new account; The user is logged in
 
@@ -59,7 +59,7 @@ Test Steps:
     3. Enter a valid password in the Password field
     4. Click on the Sign up button
 
-Expected result - The website must display an error message to the user
+Expected result - The user must be navigated to the home page
 
 Postconditions - The system has created a new account; The user is logged in
 
@@ -82,7 +82,7 @@ Test Steps:
     3. Enter a valid password in the Password field
     4. Click on the Sign up button
 
-Expected result - The website must display an error message to the user
+Expected result - The user must be navigated to the home page
 
 Postconditions - The system has created a new account; The user is logged in
 
@@ -105,7 +105,7 @@ Test Steps:
     3. Enter a valid password in the Password field
     4. Click on the Sign up button
 
-Expected result - The website must display an error message to the user
+Expected result - The user must be navigated to the home page
 
 Postconditions - The system has created a new account; The user is logged in
 
@@ -128,7 +128,7 @@ Test Steps:
     3. Enter a valid password in the Password field
     4. Click on the Sign up button
 
-Expected result - The website must display an error message to the user
+Expected result - The user must be navigated to the home page
 
 Postconditions - The system has created a new account; The user is logged in
 
