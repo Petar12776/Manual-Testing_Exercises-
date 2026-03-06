@@ -1,0 +1,10 @@
+SC_11 - Verify a successfull login
+SC_12 - Verify a login with a valid email and an invalid password
+SC_13 - Verify a login with an invalid email and a valid password
+SC_14 - Verify a login with both invalid email and password
+SC_15 - Verify a login with an empty Email field and a valid password
+SC_16 - Verify a login with a valid email and an empty Password field
+SC_17 - Verify a login with both empty Email and Password fields
+SC_18 - Verify a login by constantly clicking the login button
+SC_19 - Verify the "Forgot Password?" hyperlink
+SC_20 - Verify the "Privacy and cookies settings" hyperlink 

@@ -1,0 +1,23 @@
+Note: The following requirements are assumed and are only for learning purposes, therefore can alter from the actual website behaviour and from actual requirements!
+
+Functional Requirements:
+
+REQ-Functional 08 - The page must contain two fields: Email and Password.
+
+REQ-Functional 09 - In order for a user to login he must already have an existing account.
+
+REQ-Functional 10 - The user must enter a valid email and password to enter the home page.
+
+REQ-Functional 11 - The page must contain a login button which sends the login form.
+
+REQ-Functional 12 - On the bottom of the page is a "Privacy and cookies settings" hyperlink which leads to settings about the profile and privacy options.
+
+REQ-Functiobal 13 - The page must include a hyperlink "Forgot password!" which leads to the page where the user can change his password.
+
+REQ-Functional 14 - After a successfull login the user is navigated to the website's homepage.   
+
+UI Requirements:
+
+REQ-UI 003 - The page must contain a short text above the credential fields "Login to your account".
+
+REQ_UI 004 - Below the "Privacy and cookies settings" hyperlink there must be a text "Managed by Google. Complies with IAB TCF. CMP ID: 300".

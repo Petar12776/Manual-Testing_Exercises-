@@ -1,0 +1,283 @@
+Test Case ID - TC-25
+Scenario ID - SC_11
+
+Title - Verify a successfull login
+
+Description - The user must be able to login to the website after entering valid credentials.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Data: email - testing_user@gmail.com; password - TestingPassword123
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email
+    3. Enter a valid password
+    4. Click on the Sign up button
+
+Expected result - The website must navigate the user to the website's home page 
+
+Postconditions - The website display the home page of the website 
+
+
+Test Case ID - TC-26
+Scenario ID - SC_12
+
+Title - Verify a login with a valid email and an invalid password 
+
+Description - After trying to log to the website the website must display a message to the user telling him to enter a valid password.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Data: email - testing_user@gmail.com; password - testingpassword123
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email
+    3. Enter an invalid password
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The user is not logged in
+
+
+
+Test Case ID - TC-27
+Scenario ID - SC_12
+
+Title - Verify a login with a valid email and an invalid password 
+
+Description - After trying to log to the website the website must display a message to the user telling him to enter a valid password.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Data: email - testing_user@gmail.com; password - TESTINGPassword123
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email
+    3. Enter an invalid password
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The user is not logged in
+
+
+
+Test Case ID - TC-28
+Scenario ID - SC_13
+
+Title - Verify a login with an invalid email and a valid password 
+
+Description - After trying to log to the website the website must display a message to the user telling him to enter a valid email.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Data: email - testing_Usergmailcom; password - TestingPassword123
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter an invalid email
+    3. Enter a valid password
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The user is not logged in
+
+
+
+Test Case ID - TC-29
+Scenario ID - SC_13
+
+Title - Verify a login with an invalid email and a valid password 
+
+Description - After trying to log to the website the website must display a message to the user telling him to enter a valid email.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Data: email - Testing-usergmail.com; password - TestingPassword123
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter an invalid email
+    3. Enter a valid password
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The user is not logged in
+
+
+
+Test Case ID - TC-30
+Scenario ID - SC_14
+
+Title - Verify a login with an invalid email and an invalid password 
+
+Description - After trying to log to the website the website must display a message to the user telling him to enter a valid email and password.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Data: email - testing_user@abv.bg; password - TestingPassword111
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter an invalid email
+    3. Enter an invalid password
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The user is not logged in
+
+
+
+Test Case ID - TC-31
+Scenario ID - SC_14
+
+Title - Verify a login with an invalid email and an invalid password 
+
+Description - After trying to log to the website the website must display a message to the user telling him to enter a valid email and password.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Data: email - testinguserabvbg; password - testingpassword
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter an invalid email
+    3. Enter an invalid password
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The user is not logged in
+
+
+
+Test Case ID - TC-32
+Scenario ID - SC_15
+
+Title - Verify a login with an empty Email field and a valid password 
+
+Description - After trying to log to the website the website must display a message to the user telling him to enter a valid email.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Data: email - {empty}; password - TestingPassword123
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Leave the Email field empty
+    3. Enter a valid password
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The user is not logged in
+
+
+
+Test Case ID - TC-33
+Scenario ID - SC_16
+
+Title - Verify a login with a valid email and an empty Password field 
+
+Description - After trying to log to the website the website must display a message to the user telling him to enter a valid password.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Data: email - testing_user@gmail.com; password - {empty}
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email
+    3. Leave the Password field empty
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The user is not logged in
+
+
+
+Test Case ID - TC-34
+Scenario ID - SC_17
+
+Title - Verify a login with both Email and Password fields empty 
+
+Description - After trying to log to the website the website must display a message to the user telling him to enter a valid email and password.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Data: email - testing_user@gmail.com; password - {empty}
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Leave the Email field empty
+    3. Leave the Password field empty
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The user is not logged in
+
+
+
+Test Case ID - TC-35
+Scenario ID - SC_18
+
+Title - Verify a login by clicking the login button
+
+Description - After trying to log to the website the website must display a message to the user telling him to enter valid credentials.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    4. Click constantly on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The user is not logged in
+
+
+
+Test Case ID - TC-36
+Scenario ID - SC_19
+
+Title - Verify the "Forgot Password?" hyperlink
+
+Description - The link must navigate the user to a page where he can create a new password.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    4. Click on the "Forgot Password?" hyperlink
+
+Expected result - The website must navigate the user to the page for creating a new password
+
+Postconditions - The user is not logged in; The system must open the correct page
+
+
+
+Test Case ID - TC-37
+Scenario ID - SC_20
+
+Title - Verify the "Privacy and cookies settings" hyperlink
+
+Description - The link must navigate the user to a page where he manage his profile and privacy settings.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    4. Click on the "Privacy and cookies settings" hyperlink
+
+Expected result - The website must navigate the user to the page for account managing
+
+Postconditions - The user is not logged in; The system must open the correct page
