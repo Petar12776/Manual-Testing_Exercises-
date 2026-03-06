@@ -203,7 +203,7 @@ Postconditions - The system doesn't create another account; The user is not logg
 Test Case ID - TC-24
 Scenario ID - SC_10
 
-Title - Verify a The user gets notified after a valid subscription 
+Title - Verify the user gets notified after a valid subscription 
 
 Description - After the user gives a valid email to the subscription the website must send notifications to the user's email .
 
