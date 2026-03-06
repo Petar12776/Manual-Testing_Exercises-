@@ -7,4 +7,4 @@ SC_06 - Verify a sign up with an empty email and a valid password
 SC_07 - Verify a sign up with empty Email field and empty Password field
 SC_08 - Verify a sign up with an already existing profile
 SC_09 - Verify a sign up by pressing the sign up button continuously 
-SC_10 - Verify a user is redirected to the home page after a successful sign up  
+SC_10 - Verify the registration page's Subscription section   

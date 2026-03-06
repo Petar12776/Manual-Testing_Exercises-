@@ -155,3 +155,64 @@ Test Steps:
 Expected result - The website must display an error message to the user
 
 Postconditions - The system doesn't create another account; The user is not logged in
+
+
+
+Test Case ID - TC-22
+Scenario ID - SC_08
+
+Title - Verify a Sign up with an already existing email
+
+Description - After trying to sign up the website must display an error message telling the user that the email already exists.
+
+Preconditions - User not logged in; User does not have an account
+
+Test Data: email - testing_user@gmail.com; password - TestingPassword123
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email
+    3. Enter a valid password
+    4. Click on the Sign up button
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The system doesn't create another account; The user is not logged in
+
+
+
+Test Case ID - TC-23
+Scenario ID - SC_09
+
+Title - Verify a Sign up by clicking the sign up button constantly 
+
+Description - After trying to sign up the website must display an error message telling the user to enter valid credentials.
+
+Preconditions - User not logged in; User does not have an account
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Click on the Sign up button 20 times consistently 
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The system doesn't create another account; The user is not logged in
+
+
+
+Test Case ID - TC-24
+Scenario ID - SC_10
+
+Title - Verify a The user gets notified after a valid subscription 
+
+Description - After the user gives a valid email to the subscription the website must send notifications to the user's email .
+
+Preconditions - User not logged in; User does not have an account
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email at the subscription section below the registration page
+
+Expected result - The user must be notified constantly by the website for any recent updates 
+
+Postconditions - The system notifies constantly the user of any recent updates
