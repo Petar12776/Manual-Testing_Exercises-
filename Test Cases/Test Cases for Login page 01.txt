@@ -20,30 +20,8 @@ Expected result - The website must navigate the user to the website's home page
 Postconditions - The website display the home page of the website 
 
 
+
 Test Case ID - TC-26
-Scenario ID - SC_12
-
-Title - Verify a login with a valid email and an invalid password 
-
-Description - After trying to log to the website the website must display a message to the user telling him to enter a valid password.
-
-Preconditions - User not logged in; User has an existing account
-
-Test Data: email - testing_user@gmail.com; password - testingpassword123
-
-Test Steps: 
-    1. Navigate to the Sign up page
-    2. Enter a valid email
-    3. Enter an invalid password
-    4. Click on the Sign up button
-
-Expected result - The website must display an error message to the user
-
-Postconditions - The user is not logged in
-
-
-
-Test Case ID - TC-27
 Scenario ID - SC_12
 
 Title - Verify a login with a valid email and an invalid password 
@@ -66,7 +44,7 @@ Postconditions - The user is not logged in
 
 
 
-Test Case ID - TC-28
+Test Case ID - TC-27
 Scenario ID - SC_13
 
 Title - Verify a login with an invalid email and a valid password 
@@ -76,29 +54,6 @@ Description - After trying to log to the website the website must display a mess
 Preconditions - User not logged in; User has an existing account
 
 Test Data: email - testing_Usergmailcom; password - TestingPassword123
-
-Test Steps: 
-    1. Navigate to the Sign up page
-    2. Enter an invalid email
-    3. Enter a valid password
-    4. Click on the Sign up button
-
-Expected result - The website must display an error message to the user
-
-Postconditions - The user is not logged in
-
-
-
-Test Case ID - TC-29
-Scenario ID - SC_13
-
-Title - Verify a login with an invalid email and a valid password 
-
-Description - After trying to log to the website the website must display a message to the user telling him to enter a valid email.
-
-Preconditions - User not logged in; User has an existing account
-
-Test Data: email - Testing-usergmail.com; password - TestingPassword123
 
 Test Steps: 
     1. Navigate to the Sign up page
@@ -238,7 +193,7 @@ Preconditions - User not logged in; User has an existing account
 
 Test Steps: 
     1. Navigate to the Sign up page
-    4. Click constantly on the Sign up button
+    2. Click constantly on the Sign up button
 
 Expected result - The website must display an error message to the user
 
@@ -257,7 +212,7 @@ Preconditions - User not logged in; User has an existing account
 
 Test Steps: 
     1. Navigate to the Sign up page
-    4. Click on the "Forgot Password?" hyperlink
+    2. Click on the "Forgot Password?" hyperlink
 
 Expected result - The website must navigate the user to the page for creating a new password
 
@@ -265,7 +220,30 @@ Postconditions - The user is not logged in; The system must open the correct pag
 
 
 
+
 Test Case ID - TC-37
+Scenario ID - SC_19
+
+Title - Verify the email receiving
+
+Description - After a user enters a vaid email adress in the forgot password page the user must receive an email
+on which he can enter his new password.
+
+Preconditions - User not logged in; User has an existing account
+
+Test Steps: 
+    1. Navigate to the Sign up page
+    2. Enter a valid email address 	
+    3. Click on the Send button
+
+Expected result - The user must receive an email on his email address with the option to change his password
+
+Postconditions - The user is not logged in; The system changes the password of the user
+
+
+
+
+Test Case ID - TC-38
 Scenario ID - SC_20
 
 Title - Verify the "Privacy and cookies settings" hyperlink
@@ -276,7 +254,7 @@ Preconditions - User not logged in; User has an existing account
 
 Test Steps: 
     1. Navigate to the Sign up page
-    4. Click on the "Privacy and cookies settings" hyperlink
+    2. Click on the "Privacy and cookies settings" hyperlink
 
 Expected result - The website must navigate the user to the page for account managing
 

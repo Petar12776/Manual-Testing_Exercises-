@@ -1,0 +1,73 @@
+Test Case ID - TC-39
+Scenario ID - SC_21
+
+Title - Verify the Products button
+
+Description - Upon clicking on the button the website must navigate the user to the products list.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the left side of the navigation bar
+    2. Click on the Products button
+
+Expected result - The website must navigate the user to the products list page
+
+Postconditions - The system navigates the user to the correct page
+
+
+
+Test Case ID - TC-40
+Scenario ID - SC_22
+
+Title - Verify the Cart button
+
+Description - Upon clicking on the button the website must navigate the user to the cart section.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the left side of the navigation bar
+    2. Click on the Cart button
+
+Expected result - The website must navigate the user to the Cart page
+
+Postconditions - The system navigates the user to the correct page
+
+
+
+Test Case ID - TC-41
+Scenario ID - SC_23
+
+Title - Verify the Logout button
+
+Description - Upon clicking on the button the website must logout the user.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the left side of the navigation bar
+    2. Click on the Logout button
+
+Expected result - The website must navigate the user to the home page for unlogged users 
+
+Postconditions - The system navigates the user to the correct page
+
+
+
+Test Case ID - TC-42
+Scenario ID - SC_24
+
+Title - Verify the Delete account button
+
+Description - Upon clicking on the button the website must navigate the user to the page where he can delete his account.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the left side of the navigation bar
+    2. Click on the Delete Account button
+
+Expected result - The website must navigate the user to the page where the user can delete his account 
+
+Postconditions - The system navigates the user to the correct page
