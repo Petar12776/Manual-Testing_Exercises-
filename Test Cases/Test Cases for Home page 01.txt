@@ -1,0 +1,313 @@
+Test Case ID - TC-39
+Scenario ID - SC_21
+
+Title - Verify the Products button
+
+Description - Upon clicking on the button the website must navigate the user to the products list.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the left side of the navigation bar
+    2. Click on the Products button
+
+Expected result - The website must navigate the user to the products list page
+
+Postconditions - The system navigates the user to the correct page
+
+
+
+Test Case ID - TC-40
+Scenario ID - SC_22
+
+Title - Verify the Cart button
+
+Description - Upon clicking on the button the website must navigate the user to the cart section.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the left side of the navigation bar
+    2. Click on the Cart button
+
+Expected result - The website must navigate the user to the Cart page
+
+Postconditions - The system navigates the user to the correct page
+
+
+
+Test Case ID - TC-41
+Scenario ID - SC_23
+
+Title - Verify the Logout button
+
+Description - Upon clicking on the button the website must logout the user.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the left side of the navigation bar
+    2. Click on the Logout button
+
+Expected result - The website must navigate the user to the home page for unlogged users 
+
+Postconditions - The system navigates the user to the correct page
+
+
+
+Test Case ID - TC-42
+Scenario ID - SC_24
+
+Title - Verify the Delete account button
+
+Description - Upon clicking on the button the website must navigate the user to the page where he can delete his account.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the left side of the navigation bar
+    2. Click on the Delete Account button
+
+Expected result - The website must navigate the user to the page where the user can delete his account 
+
+Postconditions - The system navigates the user to the correct page
+
+
+
+
+Test Case ID - TC-43
+Scenario ID - SC_25
+
+Title - Verify the Test Cases button
+
+Description - Upon clicking on the button the website must navigate the user to the page where he can see example test cases.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the left side of the navigation bar
+    2. Click on the Test Cases button
+
+Expected result - The website must navigate the user to the page where the user can see example test cases 
+
+Postconditions - The system navigates the user to the correct page
+
+
+
+
+Test Case ID - TC-44
+Scenario ID - SC_26
+
+Title - Verify the API Testing button
+
+Description - Upon clicking on the button the website must navigate the user to the page where he can see example API queries.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the left side of the navigation bar
+    2. Click on the API Testing button
+
+Expected result - The website must navigate the user to the page where the user can see example API queries 
+
+Postconditions - The system navigates the user to the correct page
+
+
+
+
+Test Case ID - TC-45
+Scenario ID - SC_27
+
+Title - Verify the Video Tutorials button
+
+Description - Upon clicking on the button the website must navigate the user to the page where he can see youtube tutorials.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the left side of the navigation bar
+    2. Click on the API Testing button
+
+Expected result - The website must navigate the user to the page where the user can see example API queries 
+
+Postconditions - The system navigates the user to the correct page
+
+
+
+
+Test Case ID - TC-46
+Scenario ID - SC_28
+
+Title - Verify the Contact us button
+
+Description - Upon clicking on the button the website must navigate the user to the page where he can contact the website's administation.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the left side of the navigation bar
+    2. Click on the Contact us button
+
+Expected result - The website must navigate the user to the page where the user can contact the website's administation
+
+Postconditions - The system navigates the user to the correct page
+
+
+
+
+Test Case ID - TC-47
+Scenario ID - SC_29
+
+Title - Verify the Logged in as {username} status
+
+Description - When logged the user should be able to see a logged in as {his username} status on the right side of the navigation bar.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the left side of the navigation bar
+    2. Check the Logged in as {username} status 
+
+Expected result - The user should be able to see the text "Logged in as {username}"
+
+Postconditions - The system displays the correct text
+
+
+
+
+Test Case ID - TC-48
+Scenario ID - SC_30
+
+Title - Verify the sorting of item's Category by Women
+
+Description - When the user sorts the items by Women's category the website should display only women's clothes.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Sort the items by Women's category
+
+Expected result - The website should display only women's clothes
+
+Postconditions - The system displays the correct items
+
+
+
+
+Test Case ID - TC-49
+Scenario ID - SC_31
+
+Title - Verify the sorting of item's Category by Men
+
+Description - When the user sorts the items by Men's category the website should display only men's clothes.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Sort the items by Men's category
+
+Expected result - The website should display only men's clothes
+
+Postconditions - The system displays the correct items
+
+
+
+
+Test Case ID - TC-50
+Scenario ID - SC_32
+
+Title - Verify the sorting of item's Category by Kids
+
+Description - When the user sorts the items by Kids's category the website should display only kids's clothes.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Sort the items by Kids's category
+
+Expected result - The website should display only kids's clothes
+
+Postconditions - The system displays the correct items
+
+
+
+
+Test Case ID - TC-51
+Scenario ID - SC_33
+
+Title - Verify the sorting of item's Brand by Polo
+
+Description - When the user sorts the items by the Brand "Polo" the website should display only clothes from this brand.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Sort the items by "Polo" Brand
+
+Expected result - The website should display only clothes from this brand
+
+Postconditions - The system displays the correct items
+
+
+
+
+Test Case ID - TC-52
+Scenario ID - SC_34
+
+Title - Verify the sorting of item's Brand by H&M
+
+Description - When the user sorts the items by the Brand "H&M" the website should display only clothes from this brand.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Sort the items by "H&M" Brand
+
+Expected result - The website should display only clothes from this brand
+
+Postconditions - The system displays the correct items
+
+
+
+
+Test Case ID - TC-53
+Scenario ID - SC_35
+
+Title - Verify the sorting of item's Brand by Madame
+
+Description - When the user sorts the items by the Brand "Madame" the website should display only clothes from this brand.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Sort the items by "Madame" Brand
+
+Expected result - The website should display only clothes from this brand
+
+Postconditions - The system displays the correct items
+
+
+
+
+Test Case ID - TC-54
+Scenario ID - SC_36
+
+Title - Verify the sorting of item's Brand by Mast & Harbour
+
+Description - When the user sorts the items by the Brand "Mast & Harbour" the website should display only clothes from this brand.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Sort the items by "Mast & Harbour" Brand
+
+Expected result - The website should display only clothes from this brand
+
+Postconditions - The system displays the correct items

@@ -2,15 +2,20 @@ SC_21 - Verify the Products button in the navigation bar
 SC_22 - Verify the Cart button in the navigation bar
 SC_23 - Verify the Logout button in the navigation bar
 SC_24 - Verify the Delete Account button in the navigation bar
-SC_25 - Verify the Sorting of Categoty by Women
-SC_26 - Verify the Sorting of Categoty by Men
-SC_27 - Verify the Sorting of Categoty by Kids
-SC_28 - Verify the Sorting of Brands by Polo
-SC_29 - Verify the Sorting of Brands by H&M
-SC_30 - Verify the Sorting of Brands by Madame
-SC_31 - Verify the Sorting of Brands by Mast & Harbour
-SC_32 - Verify the Sorting of Brands by Babyhug
-SC_33 - Verify the Sorting of Brands by Allen Solly Junior
-SC_34 - Verify the Sorting of Brands by Kookie Kids
-SC_35 - Verify the Sorting of Brands by Biba
-SC_36 - Verify the adding of products to the cart
+SC_25 - Verify the Test Cases button in the navigation bar
+SC_26 - Verify the API Testing button in the navigation bar
+SC_27 - Verify the Video Tutorials button in the navigation bar
+SC_28 - Verify the Contact Us button in the navigation bar
+SC_29 - Verify the Logged in as {username} status in the navigation bar
+SC_30 - Verify the Sorting of Categoty by Women
+SC_31 - Verify the Sorting of Categoty by Men
+SC_32 - Verify the Sorting of Categoty by Kids
+SC_33 - Verify the Sorting of Brands by Polo
+SC_34 - Verify the Sorting of Brands by H&M
+SC_35 - Verify the Sorting of Brands by Madame
+SC_36 - Verify the Sorting of Brands by Mast & Harbour
+SC_37 - Verify the Sorting of Brands by Babyhug
+SC_38 - Verify the Sorting of Brands by Allen Solly Junior
+SC_39 - Verify the Sorting of Brands by Kookie Kids
+SC_40 - Verify the Sorting of Brands by Biba
+SC_41 - Verify the adding of products to the cart

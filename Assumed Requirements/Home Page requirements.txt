@@ -1,0 +1,41 @@
+Note: The following requirements are assumed and are only for learning purposes, therefore can alter from the actual website behaviour and from actual requirements!
+
+Functional Requirements:
+
+REQ-Functional 15 - The "Home" button should lead the user to the Home page
+
+REQ-Functional 16 - The "Products" button should lead the user to the Shopping page containing all products
+
+REQ-Functional 17 - The "Cart" button must should the user to the Cart section containing all added products
+
+REQ-Functional 18 - The "Logout" button should logout the user
+
+REQ-Functional 19 - The "Delete Account" button should navigate the user to the page where the user can delete his account
+
+REQ-Functional 20 - The "Test Cases" button should lead the user to a page containing an example test cases
+
+REQ-Functional 21 - The "API Testing" button should lead the user to a page containing ax example API queries 
+
+REQ-Functional 22 - The "Video Tutorials" button should navigate the user to a youtube page containing video tutorials
+
+REQ-Functional 23 - The "Contact us" button should lead the user to a page where the user can contact the website administration
+
+REQ-Functional 24 - The "Logged in as {username}" should notify the user that he is logged in with his username
+
+REQ-Functional 25 - The Category section should sort the items by a specifield category and clothing
+
+REQ-Functional 26 - The Brands section should sort the items by specific brands
+
+ 
+
+
+UI Requirements:
+
+REQ_UI 005 - The home page must have a navigation bar containing buttons for navigation around the website
+
+REQ_UI 006 - The following buttons and statuses must be present in the navigation bar: "Home", "Products", "Cart", "Logout", "Delete Account", "Test Cases", "Api Testing", "Video Tutorials",
+"Contact us", "Logged in as {username}"
+
+REQ_UI 007 - The home page show a few items available for purchase
+
+REQ_UI 007 - The website should contain the option to sort the items by Category and by Brands  
