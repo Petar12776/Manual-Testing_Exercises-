@@ -26,6 +26,10 @@ REQ-Functional 25 - The Category section should sort the items by a specifield c
 
 REQ-Functional 26 - The Brands section should sort the items by specific brands
 
+REQ-Functional 27 - Each product should contain "Add to cart button" which adds a chosen product to the shopping cart
+
+REQ-Functional 28 - Each product should contain "View product" which displays more details about the chosen product
+
  
 
 
@@ -38,4 +42,6 @@ REQ_UI 006 - The following buttons and statuses must be present in the navigatio
 
 REQ_UI 007 - The home page show a few items available for purchase
 
-REQ_UI 007 - The website should contain the option to sort the items by Category and by Brands  
+REQ_UI 008 - The website should contain the option to sort the items by Category and by Brands
+
+REQ_UI 009 - Only authorised users should be able to add products to the cart 

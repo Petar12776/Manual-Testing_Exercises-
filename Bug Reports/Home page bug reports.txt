@@ -1,0 +1,101 @@
+Bug ID - 01 
+Test Case ID - TC-60
+
+Title - Unauthenticated user can add products to cart
+
+Description - The user is able to add products to the shopping cart outside of the website's session.
+
+Preconditions - User is not logged in 
+
+Steps to reproduce: 
+    1. Navigate to the Home page
+    2. Click on the "Add to cart" button on any product
+
+Expected result - The "Add to cart button should not be available to users which aren't logged in
+
+Actual result - The user is able to add any products to the cart without being logged in
+
+Environment: OS - Windows 10; browser - Firefox; Version - 149
+
+Priority - High
+
+Severity - High
+
+
+
+
+Bug ID - 02 
+Test Case ID - TC-55
+
+Title - The list with products contains empty spaces 
+
+Description - The shopping list contains empty spaces where products should be displayed  
+
+Preconditions - User is not logged in 
+
+Steps to reproduce: 
+    1. Navigate to the Home page
+    2. Scrow down trough the shopping list 
+
+Expected result - Products should be displayed in the empty spaces
+
+Actual result - The shopping list contains empty spaces
+
+Environment: OS - Windows 10; browser - Firefox; Version - 149
+
+Priority - Medium
+
+Severity - Low
+
+
+
+
+Bug ID - 03 
+Test Case ID - TC-62
+
+Title - User can add products to cart which are out of stock
+
+Description - The user is able to add products to the shopping cart which are out of stock.
+
+Preconditions - User has an account; User is logged in 
+
+Steps to reproduce: 
+    1. Navigate to the Home page
+    2. Click on the "Add to cart" button on any product which is out of stock
+    
+Expected result - Error message should be display telling the user that the product is unavailable 
+
+Actual result - The user is able to add any products to the cart which are out of stock
+
+Environment: OS - Windows 10; browser - Firefox; Version - 149
+
+Priority - High
+
+Severity - Critical
+
+
+
+
+Bug ID - 04
+Test Case ID - TC-63
+
+Title - User can add products beyond the available stock
+
+Description - The user is able to add products to the shopping cart which are above the available quantity.
+
+Preconditions - User has an account; User is logged in 
+
+Steps to reproduce: 
+    1. Navigate to the Home page
+    2. Click on the "Add to cart" button on any product
+    3. Set number of product above available stock
+    
+Expected result - Error message should be display telling the user that the number of product is above the available 
+
+Actual result - The user is able to add any products beyond the available cuantity 
+
+Environment: OS - Windows 10; browser - Firefox; Version - 149
+
+Priority - High
+
+Severity - Critical  

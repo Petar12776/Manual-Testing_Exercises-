@@ -18,4 +18,5 @@ SC_37 - Verify the Sorting of Brands by Babyhug
 SC_38 - Verify the Sorting of Brands by Allen Solly Junior
 SC_39 - Verify the Sorting of Brands by Kookie Kids
 SC_40 - Verify the Sorting of Brands by Biba
-SC_41 - Verify the adding of products to the cart
+SC_41 - Verify the "Add to Cart" button on a product
+SC_42 - Verify the "View Product" button on a product

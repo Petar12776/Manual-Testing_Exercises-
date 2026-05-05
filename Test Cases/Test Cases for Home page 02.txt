@@ -1,0 +1,177 @@
+Test Case ID - TC-55
+Scenario ID - SC_37
+
+Title - Verify Home page contains products 
+
+Description - The home page must contain products which can be added to the cart or checked for details.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Check if any products are present in the home page 
+
+Expected result - The website should display any types of clothing 
+
+Postconditions - The system displays the correct items
+
+
+
+
+Test Case ID - TC-56
+Scenario ID - SC_37
+
+Title - Verify the sorting of item's Brand by Babyhug
+
+Description - When the user sorts the items by the Brand "Babyhug" the website should display only clothes from this brand.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Sort the items by "Babyhug" Brand
+
+Expected result - The website should display only clothes from this brand
+
+Postconditions - The system displays the correct items
+
+
+
+
+Test Case ID - TC-57
+Scenario ID - SC_38
+
+Title - Verify the sorting of item's Brand by Allen Solly Junior
+
+Description - When the user sorts the items by the Brand "Allen Solly Junior" the website should display only clothes from this brand.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Sort the items by "Allen Solly Junior" Brand
+
+Expected result - The website should display only clothes from this brand
+
+Postconditions - The system displays the correct items
+
+
+
+
+Test Case ID - TC-58
+Scenario ID - SC_39
+
+Title - Verify the sorting of item's Brand by Kookie Kids
+
+Description - When the user sorts the items by the Brand "Kookie Kieds" the website should display only clothes from this brand.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Sort the items by "Kookie Kids" Brand
+
+Expected result - The website should display only clothes from this brand
+
+Postconditions - The system displays the correct items
+
+
+
+
+Test Case ID - TC-59
+Scenario ID - SC_40
+
+Title - Verify the sorting of item's Brand by Biba
+
+Description - When the user sorts the items by the Brand "Biba" the website should display only clothes from this brand.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Sort the items by "Biba" Brand
+
+Expected result - The website should display only clothes from this brand
+
+Postconditions - The system displays the correct items
+
+
+
+
+Test Case ID - TC-60
+Scenario ID - SC_41
+
+Title - Verify the "Add to cart" button
+
+Description - When the user clicks on the add to cart button on the product it should be transfered to the shopping cart.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Click on the "Add to cart" button on any product
+
+Expected result - The chosen product must be added to the shopping cart
+
+Postconditions - The user should be able to view his added product when he goes to the cart section
+
+
+
+
+Test Case ID - TC-61
+Scenario ID - SC_42
+
+Title - Verify the "View product" button
+
+Description - When the user clicks on the view product button on the product the website should display to the user more details about the chosen product.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Click on the "View product" button on any product
+
+Expected result - The user must be navigated to a page showing more details about the chosen product
+
+Postconditions - The right details about the product are displayed
+
+
+
+Test Case ID - TC-62
+Scenario ID - SC_41
+
+Title - Verify the "Add to cart" button on a product which is out of stock
+
+Description - When the user clicks on the add to cart button on the product which is out of stock, this specific product should not be added to the cart.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Click on the "Add to cart" button on any product that is out of stock
+
+Expected result - The chosen product must not be added to the shopping cart
+
+Postconditions - The user should't be able to view out of stock products in the shopping cart
+
+
+
+
+Test Case ID - TC-63
+Scenario ID - SC_41
+
+Title - Verify adding product quantity beyond available stock
+
+Description - When the user tries to add a quantity above the available stock the website should display an error message.
+
+Preconditions - User has an existing account; User is logged in
+
+Test Steps: 
+    1. Navigate to the Home page
+    2. Click on the "View Product" on any product
+    3. Choose a quantity above the available stock
+    4. Click on the "Add to cart" button 
+
+Expected result - The website must display an error message to the user
+
+Postconditions - The products are not added to the cart
